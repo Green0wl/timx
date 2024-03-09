@@ -9,7 +9,9 @@
       "-Wconversion",
       "-Wsign-conversion",
       "-Werror",
-      "-std=c++2b"
+      "-std=c++2b",
+      
+      "-Iinclude"
     ],
     "Compiler": "clang"
   },
