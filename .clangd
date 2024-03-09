@@ -1,0 +1,16 @@
+{
+  "CompileFlags": {
+    "Add": [
+      "-ggdb",
+      "-pedantic-errors",
+      "-Wall",
+      "-Weffc++",
+      "-Wextra",
+      "-Wconversion",
+      "-Wsign-conversion",
+      "-Werror",
+      "-std=c++2b"
+    ],
+    "Compiler": "clang"
+  },
+}
