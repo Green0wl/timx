@@ -11,7 +11,7 @@
       "-Werror",
       "-std=c++2b",
       
-      "-Iinclude"
+      "-I../include", 
     ],
     "Compiler": "clang"
   },
