@@ -1,4 +1,4 @@
-CC = g++
+CXX = g++
 CFLAGS = -Wall -std=c++2b -Iinclude
 LDFLAGS = 
 
@@ -13,11 +13,11 @@ TARGET = $(BIN_DIR)/timx
 
 $(TARGET): $(OBJ)
 	mkdir -p $(BIN_DIR)
-	$(CC) $(LDFLAGS) $^ -o $@
+	$(CXX) $(LDFLAGS) $^ -o $@
 
 $(OBJ_DIR)/%.o: $(SRC_DIR)/%.cpp
 	mkdir -p $(OBJ_DIR)
-	$(CC) $(CFLAGS) -c $< -o $@
+	$(CXX) $(CFLAGS) -c $< -o $@
 
 clean:
 	rm -rf $(OBJ_DIR)/*.o $(TARGET)
